@@ -1,3 +1,6 @@
+import csv
+
+
 class Item:
     pay_rate = 0.8  # Intance classified as a class atributte or magic method
     all = []  # List that stores all instances
@@ -27,6 +30,19 @@ class Item:
     def __repr__(self):
         return f"Item('{self.name}', {self.price}, {self.quantity})"
 
+    @classmethod  # Makes the function a class method
+    def instantiate_from_csv(cls):
+        with open('Items.csv', 'r') as f:  # Open the csv arquive
+            reader = csv.DictReader(f)
+            items = list(reader)  # Makes the csv arquive a0041
+
+        for item in items:
+            Item(
+                name=item.get('name'),
+                price=int(item.get('price')),
+                quantity=item.get('quantity'),
+            )
+
 item1 = Item("Phone", 100, 5)
 item2 = Item("Laptop", 1000, 3)
 
@@ -36,8 +52,8 @@ print(item1.calculate_total_price()), print('---')
 print(Item.pay_rate, item1.pay_rate), print('---')
 
 # For viewing class atributes use magic atributte __dict__
-print('', Item.__dict__), print('---')  # All the attributes for Class level
-print(item1.__dict__), print('---')  # All the attributes for instance level
+print('Class Level Attributes:', Item.__dict__), print('---')  # All the attributes for Class level
+print('Instance Level Attributes: ', item1.__dict__), print('---')  # All the attributes for instance level
 
 # * Exemple of magic method level presence *
 
