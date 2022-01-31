@@ -1,11 +1,10 @@
-# Work and Study Source Code Storage
+# Oriented Object Programming FreeCodeCamp Course Source Code Storage
 
-Work and Study Source Codes Storage Sharing
+Oriented Object Programming FreeCodeCamp course source codes storage sharing
 
 * Description
 
-Repository made for storing working and studing source codes from many courses, certificated or not, 
-as well as guides and tutorials from internet.
+Repository made for storing Oriented Object Programming FreeCodeCamp Course source codes.
 
 * Usage Authority
 
