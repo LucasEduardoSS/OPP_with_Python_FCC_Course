@@ -1,10 +1,10 @@
 # Oriented Object Programming FreeCodeCamp Course Source Code Storage
 
-Oriented Object Programming FreeCodeCamp course source codes storage sharing
+Notes from Oriented Object Programming FreeCodeCamp course for begginers made by Jimdeops19.
 
 * Description
 
-Repository made for storing Oriented Object Programming FreeCodeCamp Course source codes.
+Repository made for storing Oriented Object Programming FreeCodeCamp Course notes as a learning and revision method.
 
 * Usage Authority
 
