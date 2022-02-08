@@ -1,6 +1,6 @@
 # Oriented Object Programming FreeCodeCamp Course Source Code Storage
 
-Notes from Oriented Object Programming FreeCodeCamp course for begginers made by Jimdeops19.
+Notes from Oriented Object Programming FreeCodeCamp course for beginners made by Jimdeops19.
 
 * Description
 
